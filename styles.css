@@ -1,0 +1,126 @@
+/* =========================================================
+   Cornerstone Goods - Site Stylesheet
+   CSIS410 Web Development Foundations Assignment
+   ========================================================= */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #f7f5f0;
+    color: #2e2a25;
+}
+
+/* ---------- Layout wrapper ---------- */
+#page-wrap {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px 30px 30px 30px;
+    border-left: 1px solid #ddd6c9;
+    border-right: 1px solid #ddd6c9;
+}
+
+/* ---------- Header ---------- */
+header {
+    border-bottom: 3px solid #6b4f2a;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    color: #6b4f2a;
+    font-size: 2em;
+}
+
+/* Custom class 1: tagline text under the site title */
+.tagline {
+    font-style: italic;
+    color: #857a63;
+    font-size: 0.95em;
+    margin-top: 4px;
+}
+
+/* ---------- Navigation ---------- */
+nav ul.main-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd6c9;
+    border-top: 1px solid #ddd6c9;
+}
+
+nav ul.main-menu li {
+    display: inline-block;
+    margin-right: 14px;
+    margin-bottom: 6px;
+}
+
+nav ul.main-menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #6b4f2a;
+    padding: 6px 10px;
+    border-radius: 3px;
+    font-size: 0.85em;
+}
+
+nav ul.main-menu li a:hover {
+    background-color: #503a1f;
+}
+
+/* Custom class 2: highlights the page the visitor is currently on */
+.current-page a {
+    background-color: #a3742f !important;
+    font-weight: bold;
+}
+
+/* ---------- Main content ---------- */
+main {
+    padding: 20px 0;
+    line-height: 1.5em;
+}
+
+main h2 {
+    color: #6b4f2a;
+    border-bottom: 1px solid #ddd6c9;
+    padding-bottom: 4px;
+}
+
+/* Custom class 3: a callout/highlight box used for verses and notices */
+.callout-box {
+    background-color: #f2ede1;
+    border-left: 4px solid #6b4f2a;
+    padding: 10px 15px;
+    margin: 15px 0;
+    font-style: italic;
+}
+
+/* Custom class 4 (bonus): simple info table styling used on the phpinfo/config page */
+.info-note {
+    background-color: #eef3ea;
+    border: 1px solid #c9d6bf;
+    padding: 10px 15px;
+    margin: 15px 0;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 3px solid #6b4f2a;
+    font-size: 0.8em;
+    color: #6b6455;
+    text-align: center;
+}
+
+footer .validation-badges img {
+    margin: 0 4px;
+    vertical-align: middle;
+}
+
+footer .last-modified {
+    margin-bottom: 8px;
+}
