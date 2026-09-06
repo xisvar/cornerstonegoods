@@ -1,5 +1,10 @@
 <?php
 /**
+ * Hosting configuration page.
+ * Captures PHP server details using phpinfo() without breaking the site's XHTML layout.
+ */
+
+/**
  * phpinfo.php
  * -----------------------------------------------------------
  * Assignment requirement: "Establish a link to a third page that

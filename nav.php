@@ -23,8 +23,8 @@ function nav_item($key, $label, $href, $currentPage) {
         nav_item('about', 'About Us', 'about-us.php', $currentPage);
         nav_item('phpinfo', 'Hosting Configuration', 'phpinfo.php', $currentPage);
         nav_item('contact', 'Contact Us', 'contact-us.php', $currentPage);
-        nav_item('variables', 'Module 1: Week 1 Variables', 'org-chart.php', $currentPage);
-        nav_item('forms', 'Module 2: Week 2 Forms', 'module2-forms.php', $currentPage);
+        nav_item('variables', 'Week 1: Variables', 'org-chart.php', $currentPage);
+        nav_item('forms', 'Module 2: Week 2 Forms', '#', $currentPage);
         nav_item('arrays', 'Module 3: Week 3 Arrays', '#', $currentPage);
         nav_item('sessions', 'Module 4: Week 4 Sessions', '#', $currentPage);
         nav_item('cms-sessions', 'Module 5: Week 5 CMS Sessions', '#', $currentPage);

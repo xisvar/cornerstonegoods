@@ -1,15 +1,7 @@
 <?php
 /**
- * footer.php
- * -----------------------------------------------------------
- * Shared footer for every page. Automatically prints the date
- * and time the CURRENT page was last modified, using PHP's
- * filemtime() on the calling script (not on footer.php itself).
- *
- * $callingScript should be passed by the including page as:
- *     $callingScript = __FILE__;
- * If it is not set (page forgot to pass it), we fall back to
- * this file so the page never breaks.
+ * Shared page footer.
+ * Adds the last-modified notice and validation badges to every page.
  */
 
 if (!isset($callingScript) || !file_exists($callingScript)) {

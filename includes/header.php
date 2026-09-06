@@ -1,20 +1,7 @@
 <?php
 /**
- * header.php
- * -----------------------------------------------------------
- * Shared XHTML 1.0 Strict header used by every page on the
- * Cornerstone Goods website.
- *
- * Expects the calling page to define these variables BEFORE
- * including this file:
- *   $pageTitle       - string, shown in <title> and browser tab
- *   $pageDescription - string, used in the meta description tag
- *   $pageKeywords    - string, comma separated meta keywords
- *
- * Basic error handling: if a calling page forgets to set one of
- * the variables above, we fall back to a sensible site-wide
- * default instead of letting an "undefined variable" notice
- * reach the browser.
+ * Shared page header.
+ * Defines the XHTML document shell and common metadata for each page.
  */
 
 if (!isset($pageTitle) || trim($pageTitle) === '') {

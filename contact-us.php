@@ -1,12 +1,7 @@
 <?php
 /**
- * contact-us.php
- * -----------------------------------------------------------
- * Assignment requirement: "Establish a link to the fourth page
- * that 'Prints' Contact Us information for your company using
- * PHP." The contact details are stored in an array and output
- * with print, as specifically required (About Us uses echo
- * instead, so both required statements appear in the site).
+ * Contact page.
+ * Displays the main customer service and company contact information.
  */
 
 $pageTitle       = 'Contact Us - Cornerstone Goods';
@@ -18,8 +13,7 @@ $callingScript   = __FILE__;
 include 'includes/header.php';
 include 'includes/nav.php';
 
-// Contact details kept in one array so future pages/modules can
-// reuse the same information instead of retyping it.
+
 $contactInfo = array(
     'Company'  => 'Cornerstone Goods',
     'Email'    => 'support@cornerstonegoods.example',

@@ -1,10 +1,7 @@
 <?php
 /**
- * index.php - Homepage
- * -----------------------------------------------------------
- * Cornerstone Goods homepage. Sets up page-specific SEO values,
- * then pulls in the shared header, nav, and footer includes so
- * markup is not duplicated across the site.
+ * Home page for Cornerstone Goods.
+ * Displays the company introduction and main landing content.
  */
 
 $pageTitle       = 'Cornerstone Goods - Christian Gifts, Books & Home Goods';

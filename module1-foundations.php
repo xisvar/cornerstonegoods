@@ -2,10 +2,18 @@
 /**
  * module1-foundations.php
  * -----------------------------------------------------------
- * The Module 1 / Week 1 Foundations assignment page. Documents
- * what this assignment required and confirms each requirement
- * with a short note, then links onward to the required About
- * Us, PHP configuration, and Contact Us pages.
+ * Assignment requirement: "Create a foundations page that
+ * demonstrates the required XHTML, CSS, and PHP elements for
+ * the first course module."
+ *
+ * This page presents the Week 1 submission for the Web Development:
+ * Foundations assignment. It establishes the page metadata, identifies
+ * the active navigation item, and loads the shared site layout so the
+ * page matches the overall Cornerstone Goods design.
+ *
+ * The content also documents the required elements of the assignment,
+ * including strict XHTML structure, shared CSS classes, reusable
+ * navigation, and the automatic last-modified date output.
  */
 
 $pageTitle       = 'Module 1 Foundations - Cornerstone Goods';
@@ -14,6 +22,8 @@ $pageKeywords    = 'Module 1 Foundations, XHTML, CSS, PHP, Cornerstone Goods';
 $currentPage     = 'foundations';
 $callingScript   = __FILE__;
 
+// Include the shared site header and main navigation to maintain a
+// consistent layout and page structure across the entire website.
 include 'includes/header.php';
 include 'includes/nav.php';
 ?>

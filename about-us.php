@@ -1,13 +1,7 @@
 <?php
 /**
- * about-us.php
- * -----------------------------------------------------------
- * Assignment requirement: "Echo a 2-paragraph report explaining
- * the Christian company that you are creating for the course."
- *
- * The report text is stored as two variables and printed with
- * echo, as the instructions specifically require echo (rather
- * than print, which is used on the Contact Us page instead).
+ * About Us page.
+ * Shares the company story, mission, and values.
  */
 
 $pageTitle       = 'About Us - Cornerstone Goods';
@@ -19,9 +13,7 @@ $callingScript   = __FILE__;
 include 'includes/header.php';
 include 'includes/nav.php';
 
-// Basic error handling: if either paragraph is ever left blank
-// (e.g. during future edits), fall back to a placeholder instead
-// of rendering an empty <p> tag.
+// Basic error handling
 $aboutParagraphOne = 'Cornerstone Goods was founded to give customers an online home for '
     . 'books, apparel, and gifts that reflect their Christian faith. What began as a '
     . 'single shelf of devotionals and handmade cards has grown into a full catalog of '
