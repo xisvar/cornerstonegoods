@@ -1,20 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-  <title id="title">The Grace Journal</title>
-  <desc id="desc">A warm red prayer journal with a gold cross and bookmark.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff8ed"/><stop offset="1" stop-color="#eadfd2"/></linearGradient>
-    <linearGradient id="cover" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b94d45"/><stop offset="1" stop-color="#74333b"/></linearGradient>
-    <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#4b3030" flood-opacity=".2"/></filter>
-  </defs>
-  <rect width="512" height="512" rx="64" fill="url(#bg)"/>
-  <circle cx="402" cy="104" r="56" fill="#d5a84b" opacity=".24"/>
-  <g filter="url(#shadow)">
-    <path d="M112 80h236c18 0 32 14 32 32v286c0 18-14 32-32 32H112c-18 0-32-14-32-32V112c0-18 14-32 32-32Z" fill="url(#cover)"/>
-    <path d="M112 80h24v318h-24c-18 0-32-14-32-32V112c0-18 14-32 32-32Z" fill="#612f39"/>
-    <rect x="143" y="124" width="172" height="222" rx="8" fill="none" stroke="#efc57b" stroke-width="3" opacity=".75"/>
-    <path d="M229 172v88M185 216h88" stroke="#f4d28b" stroke-width="15" stroke-linecap="round"/>
-    <text x="229" y="306" fill="#fff1ce" font-family="Georgia,serif" font-size="25" text-anchor="middle" letter-spacing="4">GRACE</text>
-    <text x="229" y="333" fill="#f1c77c" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" letter-spacing="3">JOURNAL</text>
-  </g>
-  <path d="M330 82h25v143l-12.5-17-12.5 17Z" fill="#d5a84b"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+  <rect width="160" height="160" fill="#eef1f4"/>
+  <rect x="35" y="25" width="90" height="110" rx="8" fill="#1d1d1f"/>
+  <rect x="45" y="42" width="70" height="6" rx="3" fill="#eef1f4"/>
+  <rect x="45" y="58" width="70" height="6" rx="3" fill="#eef1f4"/>
+  <rect x="45" y="74" width="45" height="6" rx="3" fill="#eef1f4"/>
+  <text x="80" y="150" font-family="'SF Pro Display', Arial, sans-serif" font-size="12" fill="#202124" text-anchor="middle">The Grace Journal</text>
 </svg>

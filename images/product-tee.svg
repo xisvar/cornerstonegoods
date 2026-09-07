@@ -1,18 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-  <title id="title">Cornerstone Tee</title>
-  <desc id="desc">A navy t-shirt with a simple cornerstone graphic.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#edf4f5"/><stop offset="1" stop-color="#cddbdd"/></linearGradient>
-    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#244f68"/><stop offset="1" stop-color="#132d43"/></linearGradient>
-    <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#183244" flood-opacity=".22"/></filter>
-  </defs>
-  <rect width="512" height="512" rx="64" fill="url(#bg)"/>
-  <circle cx="104" cy="108" r="44" fill="#d9a441" opacity=".3"/>
-  <g filter="url(#shadow)">
-    <path d="M178 102 111 143c-12 7-16 23-9 35l43 76 43-25v170c0 14 11 25 25 25h88c14 0 25-11 25-25V229l43 25 43-76c7-12 3-28-9-35l-67-41-32-16c-14 18-32 29-56 29s-42-11-56-29l-32 16Z" fill="url(#shirt)"/>
-    <path d="M178 102c14 18 32 29 56 29s42-11 56-29" fill="none" stroke="#9db6bc" stroke-width="5" opacity=".65"/>
-    <path d="M209 248h86v18h-86zM196 266h112v20H196zM187 286h130v22H187z" fill="#e7c276"/>
-    <path d="M206 318h92" stroke="#f4e7c0" stroke-width="4" stroke-linecap="round"/>
-    <text x="252" y="351" fill="#f4e7c0" font-family="Georgia,serif" font-size="18" text-anchor="middle" letter-spacing="3">CORNERSTONE</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+  <rect width="160" height="160" fill="#eef1f4"/>
+  <path d="M55 30 L80 45 L105 30 L130 45 L115 65 L105 60 L105 130 L55 130 L55 60 L45 65 L20 45 Z" fill="#6d7f93"/>
+  <text x="80" y="150" font-family="'SF Pro Display', Arial, sans-serif" font-size="12" fill="#202124" text-anchor="middle">Cornerstone Tee</text>
 </svg>

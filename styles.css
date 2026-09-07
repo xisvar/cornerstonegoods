@@ -354,6 +354,50 @@ main table td.poll-radio-cell {
     white-space: nowrap;
 }
 
+/* ---------- Employee directory (Module 3: Arrays) ---------- */
+ul.submenu {
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: var(--bg-soft);
+}
+
+ul.submenu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--brand-dark);
+    background: #ffffff;
+    border: 1px solid var(--border);
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 0.85em;
+    font-weight: 700;
+}
+
+ul.submenu li.current-page a {
+    color: #ffffff;
+    background: linear-gradient(180deg, var(--brand-silver) 0%, var(--brand-blue) 100%);
+    border-color: transparent;
+}
+
+ul.nested-directory,
+ul.nested-directory ul {
+    list-style: disc;
+    margin: 0 0 0.6em 1.4em;
+    padding-left: 0.4em;
+}
+
+ul.nested-directory > li {
+    margin-bottom: 1em;
+    list-style: none;
+    margin-left: -1.4em;
+}
+
 @media (max-width: 700px) {
     body {
         padding-top: 20px;
