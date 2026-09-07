@@ -398,6 +398,15 @@ ul.nested-directory > li {
     margin-left: -1.4em;
 }
 
+footer .logout-line {
+    font-size: 0.85em;
+}
+
+footer .logout-line a {
+    color: var(--brand-dark);
+    font-weight: 700;
+}
+
 @media (max-width: 700px) {
     body {
         padding-top: 20px;

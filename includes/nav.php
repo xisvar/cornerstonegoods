@@ -26,7 +26,7 @@ function nav_item($key, $label, $href, $currentPage) {
         nav_item('variables', 'Module 1: Week 1 Variables', 'org-chart.php', $currentPage);
         nav_item('forms', 'Module 2: Week 2 Forms', 'module2-forms.php', $currentPage);
         nav_item('arrays', 'Module 3: Week 3 Arrays', 'employee-directory.php', $currentPage);
-        nav_item('sessions', 'Module 4: Week 4 Sessions', '#', $currentPage);
+        nav_item('sessions', 'Module 4: Week 4 Sessions', 'login.php', $currentPage);
         nav_item('cms-sessions', 'Module 5: Week 5 CMS Sessions', '#', $currentPage);
         nav_item('database', 'Module 6: Week 6 Database', '#', $currentPage);
         nav_item('cms-database', 'Module 8: Week 8 CMS Database', '#', $currentPage);

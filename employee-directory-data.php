@@ -10,7 +10,12 @@
  * phone, title, and hireDate (the two additional fields chosen
  * for this assignment). firstName/lastName are stored separately
  * (rather than one combined "name" field) specifically so sorting
- * by last name doesn't require parsing a full name string apart.s
+ * by last name doesn't require parsing a full name string apart.
+ *
+ * IMPORTANT: Replace the "[Your Name]" record below with your own
+ * name, title, and contact details before submitting - the
+ * assignment requires you to include yourself as one of the
+ * employees, and that isn't something that can be filled in for you.
  */
 
 $employeeDirectory = array(
@@ -25,11 +30,11 @@ $employeeDirectory = array(
         'hireDate'  => '2021-03-01',
     ),
     array(
-        'firstName' => 'James',
-        'lastName'  => 'Nelson',
+        'firstName' => '[Your First Name]',
+        'lastName'  => '[Your Last Name]',
         'department'=> 'Executive Leadership',
         'team'      => 'Finance',
-        'email'     => 'me@cornerstonegoods.example',
+        'email'     => 'you@cornerstonegoods.example',
         'phone'     => '(555) 010-2002',
         'title'     => 'Web Developer',
         'hireDate'  => '2026-01-15',
